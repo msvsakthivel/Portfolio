@@ -1,5 +1,5 @@
 
-import { FaAmazon,FaCloud, FaGithub, FaGraduationCap, FaLinkedin,FaLinux, FaTwitter,} from "react-icons/fa";
+import {FaGithub, FaGraduationCap, FaLinkedin,FaLinux, FaTwitter,} from "react-icons/fa";
 import { MdMail } from "react-icons/md";
 
 
