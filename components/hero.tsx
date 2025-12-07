@@ -128,6 +128,7 @@ export default function Hero() {
                 src="/images/profile-image.png" 
                 alt="Sakthivel"
                 fill 
+                quality={100}
                 className={`object-contain transition-opacity duration-500 ${imageLoading ? 'opacity-0' : 'opacity-100'}`}
                 priority
                 style={{ transform: "scale(1.4) translateX(2%) translateY(8%)" }}
