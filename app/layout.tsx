@@ -30,7 +30,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Sakthivel | Portfolio",
     description: " Software Engineer specializing in DevOps & Cloud  with expertise in modern web technologies including Kubernetes, Jenkins, Docker,Terraform,CI/CD and cloud services.",
-    url: "https://prakasherusagoundar.me/",
+    url: "https://msvsakthivel.vercel.app/",
     siteName: "Sakthivel Portfolio",
     locale: "en_US",
     type: "website",
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Sakthivel | Portfolio",
     description: " Software Engineer specializing in DevOps & Cloud  with expertise in modern web technologies including Kubernetes, Jenkins, Docker,Terraform,CI/CD and cloud services.",
-    creator: "@PrakashE28",
+    creator: "@Sakthivel",
   },
   robots: {
     index: true,
