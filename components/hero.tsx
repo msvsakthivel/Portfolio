@@ -42,7 +42,9 @@ export default function Hero() {
               </motion.div>
 
               <motion.p className="text-xl text-muted-foreground max-w-[600px]" {...staggerDelay(0.2)}>
-                I'm a Junior DevOps Engineer with hands-on experience in Linux system administration, AWS cloud services, Git, CI/CD pipelines, and Docker. I'm passionate about automating workflows, managing cloud infrastructure, and building reliable, scalable systems. I continuously improve my skills in DevOps tools, cloud technologies, and infrastructure automation.
+                I'm a Junior DevOps Engineer with hands-on experience in Linux system administration, AWS cloud services, Git, CI/CD pipelines, and Docker.
+                I'm passionate about automating workflows, managing cloud infrastructure, and building reliable, scalable systems.
+                I continuously improve my skills in DevOps tools, cloud technologies, and infrastructure automation.
               </motion.p>
             </div>
 
