@@ -3,25 +3,25 @@ import { MetadataRoute } from 'next'
 export default function sitemap(): MetadataRoute.Sitemap {
   return [
     {
-      url: 'https://prakasherusagoundar.me/',
+      url: 'https://msvsakthivel.vercel.app/',
       lastModified: new Date(),
       changeFrequency: 'monthly',
       priority: 1,
     },
     {
-      url: 'https://prakasherusagoundar.me/#tech-stack',
+      url: 'https://msvsakthivel.vercel.app/#tech-stack',
       lastModified: new Date(),
       changeFrequency: 'monthly',
       priority: 0.8,
     },
     {
-      url: 'https://prakasherusagoundar.me/#projects',
+      url: 'https://msvsakthivel.vercel.app/#projects',
       lastModified: new Date(),
       changeFrequency: 'monthly',
       priority: 0.8,
     },
     {
-      url: 'https://prakasherusagoundar.me/#contact',
+      url: 'https://msvsakthivel.vercel.app/#contact',
       lastModified: new Date(),
       changeFrequency: 'monthly',
       priority: 0.5,
