@@ -9,20 +9,25 @@ export const experienceData = [
     company: "Sohoran",
     location: "Erode, India",
     description: [
-      "Designed, Developed, and Maintained robust software applications, ensuring high performance and scalability.",
-    ],
-    date: "May 2024 - Jun 2024",
+  "Assisted with Windows and Linux system administration, including installation, configuration, and maintenance.",
+  "Performed system troubleshooting, user account management, and software updates to support daily operations.",
+  "Worked with Linux commands, log files, and basic networking while resolving technical issues.",
+],
+    date: "May 2024 - July 2024",
   },
   {
-    title: "Freelancer",
-    company: "Self-Employed",
-    location: "Remote",
-    description: [
-      "Implemented CI/CD pipelines using Jenkins, GitHub Actions, and ArgoCD for automated build and deployment.",
-      "Deployed and managed scalable cloud infrastructure using AWS, Azure, and Terraform for improved reliability and performance.",
-
-    ],
-    date: "Aug 2024 - Oct 2025",
+    title: "System Admin | Cloud Engineer",
+    company: "N2 Services Private Limited",
+    location: "Onsite",
+   description: [
+  "Manage Linux servers, user accounts, groups, file permissions, SSH access, and system services.",
+  "Monitor CPU, memory, disk usage, processes, uptime, and server health.",
+  "Troubleshoot Linux services, storage, networking, connectivity, and application log issues.",
+  "Perform package installation, updates, filesystem maintenance, and system administration tasks.",
+  "Support AWS services including EC2, VPC, IAM, Security Groups, S3, CloudWatch, and AWS CLI.",
+  "Use Bash scripting to automate repetitive Linux administration and operational tasks.",
+],
+    date: "Mar 2026 - Present",
   },
 ] as const;
 
@@ -58,13 +63,21 @@ export const projects = [
     github: "https://github.com/msvsakthivel/EVENT-MANAGAMENT-SYSTEM",
     image: "/images/Event.gif",
   },
-  {
-    title: "Weather App",
-    description:
-      "Vaanilai is a modern web app that shows real-time weather details for any city you search.It displays temperature and climate conditions in a clean and user-friendly interface.Built using React, it ensures fast performance and smooth interaction for quick weather updates.",
-    tags: ["HTML","CSS", "Docker", "Java Script", "React",],
-    github: "https://github.com/msvsakthivel/Vaanilai",
-    image: "/images/vaanilai.gif", 
+{
+  title: "AWS VPC with Public-Private Subnet Architecture",
+  description:
+    "Designed and configured an AWS VPC with public and private subnets across two Availability Zones. Set up an Application Load Balancer, NAT Gateways, an Auto Scaling Group, Security Groups, and an S3 Gateway Endpoint to support secure, highly available cloud infrastructure.",
+  tags: [
+    "AWS",
+    "VPC",
+    "EC2",
+    "Application Load Balancer",
+    "NAT Gateway",
+    "Auto Scaling",
+    "Security Groups",
+    "S3",
+  ],
+    image: "/images/aws-project.gif", 
   },
   //   {
   //   title: "Spotify Infrastructure Automation",
@@ -80,11 +93,13 @@ export const projects = [
 export const certificates = [
   {
     id: 1,
-    title: "Web Development",
+    title: "System Engineer",
     institution: "Soharon Infotech",
     duration: "Issued: July 2024",
-    description: "Designed, Developed, and Maintained robust software applications, ensuring high performance and scalability.",
-    link: "https://drive.google.com/file/d/1Pk_qWA8ho4Q-B_CbgLOmyKfUoLRBFCy-/view?usp=drive_link",
+    description:     "Assisted with Windows and Linux system installation, configuration, and maintenance.",
+    "Performed system troubleshooting, user account management, and software updates.",
+    "Used Linux commands, reviewed log files, and practiced basic networking to resolve technical issues.",
+    link: "https://drive.google.com/file/d/1EfZYZCpdTEtsRcL3wqFBMjMFsBCybYn_/view?usp=drive_link",
     icon: FaGraduationCap,
   },
   {
